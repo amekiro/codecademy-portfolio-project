@@ -1,0 +1,14 @@
+<div id='top'></div>
+<div id='gallery'>
+    <% @works.each do |x| %>
+        <div class='work'>
+            <div class='title-frame'>
+                <div class='title'><%= x.title %></div>
+                <div class='des'><%= x.description %></div>
+            </div>
+            <div class='img-frame'>
+                <%= image_tag x.image %>
+            </div>
+        </div>
+    <% end %>
+</div>

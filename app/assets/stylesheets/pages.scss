@@ -163,3 +163,20 @@ footer img {
     right: -9999px;
     margin: auto;
 }
+
+#about-frame {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#about-frame > img, #about {
+    float: left;
+    margin-bottom: 20px;
+}
+
+#about {
+    width: 60%;
+    padding-left: 40px;
+}

@@ -6,4 +6,8 @@ class PagesController < ApplicationController
     def gallery
         @works = Work.all
     end
+
+    def about
+
+    end
 end

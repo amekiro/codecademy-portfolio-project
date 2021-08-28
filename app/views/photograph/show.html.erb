@@ -1,0 +1,24 @@
+<div id='work-cont'>
+    <div id='cont-nav'>
+        <div id='prev'>Previous</div>
+        <div id='next'>Next</div>
+    </div>
+    <div id='content'>
+        <% if @photo.media == 'image' %>
+            <%= image_tag @photo.link %>
+        <% elsif @photo.media == 'video' %>
+            <iframe src="<%= @photo.link %>" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <% end %>
+    </div>
+    <div id='description'>
+        <b><%= @photo.title %> (<%= @photo.year %>)</b>
+        <br />
+        <%= @photo.material %>
+        <p><%= @photo.description %></p>
+    </div>
+</div>
+<div id='work-nav'>
+    <% @photos.each do |x| %>
+        <div class='icon' style='background-position: <%= x.icon %>px 0px;'%>></div>
+    <% end %>
+</div>

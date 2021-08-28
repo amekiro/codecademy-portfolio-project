@@ -8,12 +8,12 @@ Rails.application.routes.draw do
   get '/design' => 'design#index'
   get '/design/:id' => 'design#show'
 
-  resources :threeds
-  get '/threeds/:id' => 'three_d#show'
+  resources :three_d
+  get '/three_d/:id' => 'three_d#show'
 
   resources :illustration
   get '/illustration/:id' => 'illustration#show'
 
-  resources :photographs
+  resources :photograph
   get '/photograph/:id' => 'photograph#show'
 end

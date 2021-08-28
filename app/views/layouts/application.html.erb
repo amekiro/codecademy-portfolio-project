@@ -18,10 +18,10 @@
       <nav>
           <ul>
               <li><%= link_to "Welcome", welcome_path() %></li>
-              <li>Digital 3D</li>
-              <li>Illustration</li>
-              <li>Graphic Design</li>
-              <li><%= link_to "Photography", gallery_path() %></li>
+              <li><%= link_to "Digital 3D", three_d_path(twork) %></li>
+              <li><%= link_to "Illustration", illustration_path(iwork) %></li>
+              <li><%= link_to "Graphic Design", design_path(dwork) %></li>
+              <li><%= link_to "Photography", photograph_path(pwork) %></li>
               <li><%= link_to "About", about_path() %></li>
           </ul>
       </nav>

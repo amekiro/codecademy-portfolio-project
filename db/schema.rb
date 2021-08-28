@@ -10,7 +10,29 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_08_16_045527) do
+ActiveRecord::Schema.define(version: 2021_08_27_022434) do
+
+  create_table "artworks", force: :cascade do |t|
+    t.integer "icon"
+    t.string "category"
+    t.text "media"
+    t.text "link"
+    t.string "title"
+    t.integer "year"
+    t.string "material"
+    t.text "description"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "sketches", force: :cascade do |t|
+    t.integer "icon"
+    t.text "media"
+    t.integer "artworks_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["artworks_id"], name: "index_sketches_on_artworks_id"
+  end
 
   create_table "works", force: :cascade do |t|
     t.string "title"

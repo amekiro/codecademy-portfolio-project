@@ -1,0 +1,2 @@
+class ThreeDController < ApplicationController
+end

@@ -1,6 +1,18 @@
 <div id='portfolio'>
-    <div id="intro">
-        <h3>Caitlyn Sun | Photographer</h3>
-        <div id='button'><%= link_to 'View my Work', gallery_path() %></div>
-    </div>
+    <!--<div id='intro'>-->
+        <div class='portAcc' id='3d' style='background-image: url("<%= @twork.link %>")'>
+            <%= link_to 'Digital 3D', threed_path(@twork), class: 'button' %>
+        </div>
+        <div class='portAcc' id='illustration' style='background-image: url("<%= @iwork.link %>")'>
+            <%= link_to 'Illustration', illustration_path(@iwork), class: 'button' %>
+        </div>
+        <div class='portAcc' id='design' style='background-image: url("<%= @dwork.link %>")'>
+            <%= link_to 'Graphic Design', design_path(@dwork), class: 'button' %>
+        </div>
+        <div class='portAcc' id='photo' style='background-image: url("<%= @pwork.link %>")'>
+            <%= link_to 'Photography', threed_path(@pwork), class: 'button' %>
+        </div>
+        <!--<h3>Caitlyn Sun | Photographer</h3>
+        <div id='button'><%= link_to 'View my Work', gallery_path() %></div>-->
+    <!--</div>-->
 </div>

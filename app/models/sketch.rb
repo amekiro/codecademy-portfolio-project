@@ -1,3 +1,3 @@
 class Sketch < ApplicationRecord
-    belongs_to :artworks
+    belongs_to :artwork
 end

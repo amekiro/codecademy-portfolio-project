@@ -236,24 +236,71 @@ footer img {
     width: 50px;
     height: 50px;
     float: left;
-    margin: 0 0 5px 5px;
+    margin: 5px;
     cursor: pointer;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     background: url(http://www.csunworks.com/image/home/sprite.jpg);
 }
 
-#work-nav {
-    height: 100%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background: #76a2b4;
-    clear: both;
+#work-cont {
+    width: 100%;
 }
 
-#work-cont {
+#cont-nav {
+    width: 306px;
+    margin: auto;
+    text-align: center; 
+}
+
+#prev, #next {
+    background: rgba(29,48,62,.8);
+    padding: 12px 20px;
+    margin: 18px;
+    color: white;
     float: left;
-    padding: 30px 80px;
-    width: 90%;
-    background: red;
+    width: 100px;
+}
+
+#prev a, #next a {
+    text-decoration: none;
+}
+
+#content {
+    clear: both;
+    text-align: center;
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#content img {
+    max-height: 100%;
+    max-width: 80%;
+    margin: auto;
+}
+
+#description {
+    width: 80%;
+    margin: auto;
+}
+
+#work-nav {
+    height: 140px;
+    padding: 15px 30px;
+    background: #76a2b4;
+    clear: both;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: white;
+}
+
+.icon:hover, .select {
+    outline: 1px solid white;
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
 }

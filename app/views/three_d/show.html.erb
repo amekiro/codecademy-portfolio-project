@@ -1,7 +1,7 @@
 <div id='work-cont'>
     <div id='cont-nav'>
-        <div id='prev'>Previous</div>
-        <div id='next'>Next</div>
+        <%= link_to 'Previous', three_d_path(@prev), :id => 'prev' %>
+        <%= link_to 'Next', three_d_path(@next), :id => 'next' %>
     </div>
     <div id='content'>
         <% if @three.media == 'image' %>
@@ -14,11 +14,12 @@
         <b><%= @three.title %> (<%= @three.year %>)</b>
         <br />
         <%= @three.material %>
-        <p><%= @three.description %></p>
+        <p><%= raw @three.description %></p>
     </div>
 </div>
-<div id='work-nav'>
+<div id='work-nav' style='width: <%= @threes.length * 60 + 60 %>px;'>
+    <p>View more works like this!</p>
     <% @threes.each do |x| %>
-        <div class='icon' style='background-position: <%= x.icon %>px 0px;'%>></div>
+        <a href='<%= three_d_path(x.id) %>'><div class='icon <%= x.id == @three.id ? "select" : "" %>' style='background-position: <%= x.icon %>px 0px;'%></div></a>
     <% end %>
 </div>

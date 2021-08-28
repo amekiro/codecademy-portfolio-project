@@ -28,10 +28,10 @@ ActiveRecord::Schema.define(version: 2021_08_27_022434) do
   create_table "sketches", force: :cascade do |t|
     t.integer "icon"
     t.text "media"
-    t.integer "artworks_id"
+    t.integer "artwork_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["artworks_id"], name: "index_sketches_on_artworks_id"
+    t.index ["artwork_id"], name: "index_sketches_on_artwork_id"
   end
 
   create_table "works", force: :cascade do |t|

@@ -24,4 +24,5 @@ class ApplicationController < ActionController::Base
         rand = rand(@photographs.length).floor()
         @pwork = @photographs[rand]
     end
+
 end

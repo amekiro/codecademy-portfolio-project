@@ -1,7 +1,7 @@
 <div id='work-cont'>
     <div id='cont-nav'>
-        <div id='prev'>Previous</div>
-        <div id='next'>Next</div>
+        <%= link_to 'Previous', photograph_path(@prev), :id => 'prev' %>
+        <%= link_to 'Next', photograph_path(@next), :id => 'next' %>
     </div>
     <div id='content'>
         <% if @photo.media == 'image' %>
@@ -14,11 +14,12 @@
         <b><%= @photo.title %> (<%= @photo.year %>)</b>
         <br />
         <%= @photo.material %>
-        <p><%= @photo.description %></p>
+        <p><%= raw @photo.description %></p>
     </div>
 </div>
-<div id='work-nav'>
+<div id='work-nav' style='width: <%= @photos.length * 60 + 60 %>px;'>
+    <p>View more works like this!</p>
     <% @photos.each do |x| %>
-        <div class='icon' style='background-position: <%= x.icon %>px 0px;'%>></div>
+        <a href='<%= photograph_path(x.id) %>'><div class='icon <%= x.id == @photo.id ? "select" : "" %>' style='background-position: <%= x.icon %>px 0px;'%></div></a>
     <% end %>
 </div>

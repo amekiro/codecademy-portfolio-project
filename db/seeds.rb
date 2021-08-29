@@ -748,10 +748,37 @@ t10s2 = Sketch.create(
 )
 
 p1 = Artwork.create(
-  icon: 0,
+  icon: -4150,
   category: "photography",
-  link: "https://lh3.googleusercontent.com/pw/AM-JKLV8CJFyzOWJamgWipfpBOF9YTPgBeDAykVrqjHQ0iRQOEt6SBPh-oMqM_-ZDd6VMHYWW4y-lchcuKr3lmUYGtYP9xSpvMHlyMI4fS6ArHcQky4BCebRUOzkPmD8Sx-rAMZ00uGOE1N6cKEDlyblR31D=w1454-h969-no?authuser=0",
+  link: Rails.root.join('app', 'assets', 'images', 'alaska_main.png'),
   media: "image",
-  title: "Duck in Lake Blausee",
+  title: "Photographs From Trip to Alaska",
+  year: 2017
+)
+
+p2 = Artwork.create(
+  icon: -4200,
+  category: "photography",
+  link: Rails.root.join('app', 'assets', 'images', 'japan_main.png'),
+  media: "image",
+  title: "Photographs From Trip to Japan",
+  year: 2017
+)
+
+p3 = Artwork.create(
+  icon: -4100,
+  category: "photography",
+  link: Rails.root.join('app', 'assets', 'images', 'miso_main.png'),
+  media: "image",
+  title: "Photographs of Pembroke Welsh Corgi, Miso",
+  year: 2020
+)
+
+p4 = Artwork.create(
+  icon: -4250,
+  category: "photography",
+  link: Rails.root.join('app', 'assets', 'images', 'switzerland_main.png'),
+  media: "image",
+  title: "Photographs From Trip to Switzerland",
   year: 2019
 )

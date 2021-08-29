@@ -241,8 +241,7 @@ footer img {
     cursor: pointer;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
-    background: url(../images/sprite.jpg);
-    /*background: url(http://www.csunworks.com/image/home/sprite.jpg);*/
+    background-image: url(asset_path('sprite.jpg'));
 }
 
 #work-cont {

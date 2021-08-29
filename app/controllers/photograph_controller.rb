@@ -4,6 +4,9 @@ class PhotographController < ApplicationController
         @photos = Artwork.where(category: "photography")
         @photo = Artwork.find(params[:id])
 
+        puts @photo.id
+        puts @photo.link
+
         #Set navigation
         if @photo.id == @photos.first.id
             @prev = @photos.last.id

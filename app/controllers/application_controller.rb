@@ -22,7 +22,11 @@ class ApplicationController < ActionController::Base
     def pwork
         @photographs = Artwork.where(category: "photography")
         rand = rand(@photographs.length).floor()
+        puts rand
         @pwork = @photographs[rand]
     end
+
+    puts "Check Photography"
+    puts :pwork
 
 end

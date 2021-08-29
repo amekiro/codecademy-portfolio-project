@@ -4,11 +4,13 @@ class DesignController < ApplicationController
     end
 
     def show
+        # Get designs
         @designs = Artwork.where(category: "design")
         @design = Artwork.find(params[:id])
-
+        
+        # Set navigation
         if @design.id == @designs.first.id
-            @prev = @designs.first.id
+            @prev = @designs.last.id
         else
             @prev = @designs.where("id < ? ", @design.id).last.id
         end
@@ -18,5 +20,8 @@ class DesignController < ApplicationController
         else
             @next = @designs.where("id > ? ", @design.id).first.id
         end
+
+        # Get sketches
+        @sketches = Sketch.where(artwork_id: @design.id)
     end
 end

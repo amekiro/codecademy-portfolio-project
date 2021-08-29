@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 2021_08_27_022434) do
   create_table "sketches", force: :cascade do |t|
     t.integer "icon"
     t.text "media"
+    t.text "link"
     t.integer "artwork_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

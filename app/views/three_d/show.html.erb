@@ -1,6 +1,39 @@
+<div id='sketch-frame'>
+    <div id='sketch'>
+        <div id='cont-nav' style='width: <%= @sketches.length > 0 ? 504 : 236 %>px;'>
+            <div id='prev' class='toggle'>Previous</div>
+            <div class='toggle hide'>Return to the slideshow</div>
+            <div id='next' class='toggle'>Next</div>
+        </div>
+        <div id='content'>
+            <% @sketches.each do |x| %>
+                <% if x.media == 'image' %>
+                    <img class='media' src='<%= x.link %>' style='display: <%= x.id != @sketches.first.id ? "none" : "block" %>;' />
+                <% elsif x.media == 'video' %>
+                    <iframe class='media' src='<%= x.link %>' style='display: <%= x.id != @sketches.first.id ? "none" : "block" %>;' width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                <% end %>
+            <% end %>
+        </div>
+        <div id='description'>
+            <b><%= @three.title %> (<%= @three.year %>)</b>
+            <br />
+            <%= @three.material %>
+            <p><%= raw @three.description %></p>
+        </div>
+        <div id='work-nav' style='width: <%= @sketches.length * 60 + 60 %>px;'>
+            <p>Additional Images:</p>
+            <% @sketches.each do |x| %>
+                <div class='icon <%= x.id == @sketches.first.id ? "select" : "" %>' style='background-position: <%= x.icon %>px 0px;'%></div>
+            <% end %>
+        </div>
+    </div>
+</div>
 <div id='work-cont'>
-    <div id='cont-nav'>
+    <div id='cont-nav' style='width: <%= @sketches.length > 0 ? 504 : 236 %>px;'>
         <%= link_to 'Previous', three_d_path(@prev), :id => 'prev' %>
+        <% if @sketches.length > 0 %>
+            <div class='toggle show'>Click here for more images</div>
+        <% end %>
         <%= link_to 'Next', three_d_path(@next), :id => 'next' %>
     </div>
     <div id='content'>

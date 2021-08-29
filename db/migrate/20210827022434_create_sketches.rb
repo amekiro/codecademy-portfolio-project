@@ -3,6 +3,7 @@ class CreateSketches < ActiveRecord::Migration[6.1]
     create_table :sketches do |t|
       t.integer :icon
       t.text :media
+      t.text :link
       t.references :artwork
       t.timestamps
     end

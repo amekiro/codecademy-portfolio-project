@@ -30,13 +30,50 @@ g1 = Artwork.create(
 
 g1s1 = Sketch.create(
   icon: -1050,
-  media: "http://csunworks.com/image/design/book_layout/book_layout.jpg",
+  media: "image",
+  link: "http://csunworks.com/image/design/book_layout/book_layout.jpg",
   artwork_id: g1.id
 )
 
 g1s2 = Sketch.create(
   icon: -2800,
-  media: "http://csunworks.com/image/design/book_layout/book1.jpg",
+  media: "image",
+  link: "http://csunworks.com/image/design/book_layout/book1.jpg",
+  artwork_id: g1.id
+)
+
+g1s3 = Sketch.create(
+  icon: -2850,
+  media: "image",
+  link: "http://csunworks.com/image/design/book_layout/book2.jpg",
+  artwork_id: g1.id
+)
+
+g1s4 = Sketch.create(
+  icon: -2900,
+  media: "image",
+  link: "http://csunworks.com/image/design/book_layout/book3.jpg",
+  artwork_id: g1.id
+)
+
+g1s5 = Sketch.create(
+  icon: -2950,
+  media: "image",
+  link: "http://csunworks.com/image/design/book_layout/book4.jpg",
+  artwork_id: g1.id
+)
+
+g1s6 = Sketch.create(
+  icon: -3000,
+  media: "image",
+  link: "http://csunworks.com/image/design/book_layout/book5.jpg",
+  artwork_id: g1.id
+)
+
+g1s7 = Sketch.create(
+  icon: -3050,
+  media: "image",
+  link: "http://csunworks.com/image/design/book_layout/book6.jpg",
   artwork_id: g1.id
 )
 
@@ -49,6 +86,55 @@ g2 = Artwork.create(
   year: 2011,
   material: 'Adobe Photoshop and Book Binding, 12 1/4" X 9 3/4" (folded)',
   description: "While looking at artist books, I questioned myself just what makes a book besides the content that is placed into the pages, so I visually created my own definition."
+)
+
+g2s1 = Sketch.create(
+  icon: -1100,
+  media: "image",
+  link: "http://csunworks.com/image/design/book/book_preview.png",
+  artwork_id: g2.id
+)
+
+g2s2 = Sketch.create(
+  icon: -1400,
+  media: "image",
+  link: "http://csunworks.com/image/design/book/book1.jpg",
+  artwork_id: g2.id
+)
+
+g2s3 = Sketch.create(
+  icon: -1450,
+  media: "image",
+  link: "http://csunworks.com/image/design/book/book2.jpg",
+  artwork_id: g2.id
+)
+
+g2s4 = Sketch.create(
+  icon: -1500,
+  media: "image",
+  link: "http://csunworks.com/image/design/book/book3.jpg",
+  artwork_id: g2.id
+)
+
+g2s5 = Sketch.create(
+  icon: -1550,
+  media: "image",
+  link: "http://csunworks.com/image/design/book/book4.jpg",
+  artwork_id: g2.id
+)
+
+g2s6 = Sketch.create(
+  icon: -1600,
+  media: "image",
+  link: "http://csunworks.com/image/design/book/book5.jpg",
+  artwork_id: g2.id
+)
+
+g2s7 = Sketch.create(
+  icon: -1650,
+  media: "image",
+  link: "http://csunworks.com/image/design/book/book6.jpg",
+  artwork_id: g2.id
 )
 
 g3 = Artwork.create(
@@ -85,6 +171,97 @@ g5 = Artwork.create(
     <p>While the image shows a few screens, the prototype can be seen <a href='https://projects.invisionapp.com/share/QVNLA1MY#/screens' target='_blank'>here</a>. Although the prototype was made with the iPhone5 dimensions, it will also work on Android. iPhone users will be prompted to download the app before opening.</p>"
 )
 
+g5s1 = Sketch.create(
+  icon: -1250,
+  media: "image",
+  link: "http://csunworks.com/image/design/risdbits/risdbits_screens.jpg",
+  artwork_id: g5.id
+)
+
+g5s2 = Sketch.create(
+  icon: -2200,
+  media: "image",
+  link: "http://csunworks.com/image/design/risdbits/1.jpg",
+  artwork_id: g5.id
+)
+
+g5s3 = Sketch.create(
+  icon: -2250,
+  media: "image",
+  link: "http://csunworks.com/image/design/risdbits/2.jpg",
+  artwork_id: g5.id
+)
+
+g5s4 = Sketch.create(
+  icon: -2300,
+  media: "image",
+  link: "http://csunworks.com/image/design/risdbits/3.jpg",
+  artwork_id: g5.id
+)
+
+g5s5 = Sketch.create(
+  icon: -2350,
+  media: "image",
+  link: "http://csunworks.com/image/design/risdbits/4.jpg",
+  artwork_id: g5.id
+)
+
+g5s6 = Sketch.create(
+  icon: -2400,
+  media: "image",
+  link: "http://csunworks.com/image/design/risdbits/5.jpg",
+  artwork_id: g5.id
+)
+
+g5s7 = Sketch.create(
+  icon: -2450,
+  media: "image",
+  link: "http://csunworks.com/image/design/risdbits/6.jpg",
+  artwork_id: g5.id
+)
+
+g5s8 = Sketch.create(
+  icon: -2500,
+  media: "image",
+  link: "http://csunworks.com/image/design/risdbits/7.jpg",
+  artwork_id: g5.id
+)
+
+g5s9 = Sketch.create(
+  icon: -2550,
+  media: "image",
+  link: "http://csunworks.com/image/design/risdbits/8.jpg",
+  artwork_id: g5.id
+)
+
+g5s10 = Sketch.create(
+  icon: -2600,
+  media: "image",
+  link: "http://csunworks.com/image/design/risdbits/9.jpg",
+  artwork_id: g5.id
+)
+
+g5s11 = Sketch.create(
+  icon: -2650,
+  media: "image",
+  link: "http://csunworks.com/image/design/risdbits/10.jpg",
+  artwork_id: g5.id
+)
+
+g5s12 = Sketch.create(
+  icon: -2700,
+  media: "image",
+  link: "http://csunworks.com/image/design/risdbits/11.jpg",
+  artwork_id: g5.id
+)
+
+g5s13 = Sketch.create(
+  icon: -2750,
+  media: "image",
+  link: "http://csunworks.com/image/design/risdbits/12.jpg",
+  artwork_id: g5.id
+)
+
 g6 = Artwork.create(
   icon: -1300,
   category: "design",
@@ -94,6 +271,27 @@ g6 = Artwork.create(
   year: 2012,
   material: "Adobe Illustrator",
   description: "Commissioned by William Lu. With Sweet Home Realty LLC, a New Jersey based real estate firm, becoming William's firm, a new logo was requested for them."
+)
+
+g6s1 = Sketch.create(
+  icon: -1300,
+  media: "image",
+  link: "http://csunworks.com/image/design/sweet_home_realty/sweet_home_realty.jpg",
+  artwork_id: g6.id
+)
+
+g6s2 = Sketch.create(
+  icon: -3100,
+  media: "image",
+  link: "http://csunworks.com/image/design/sweet_home_realty/sketches.jpg",
+  artwork_id: g6.id
+)
+
+g6s3 = Sketch.create(
+  icon: -3150,
+  media: "image",
+  link: "http://csunworks.com/image/design/sweet_home_realty/colors.jpg",
+  artwork_id: g6.id
 )
 
 g7 = Artwork.create(
@@ -107,9 +305,96 @@ g7 = Artwork.create(
   description: "<p>After designing the layout for an information poster, I used some color tests.</p>"
 )
 
+g7s1 = Sketch.create(
+  icon: -1350,
+  media: "image",
+  link: "http://csunworks.com/image/design/visiting_designers/visiting_designers1.jpg",
+  artwork_id: g7.id
+)
 
+g7s2 = Sketch.create(
+  icon: -3950,
+  media: "image",
+  link: "http://csunworks.com/image/design/visiting_designers/visiting_designers2.jpg",
+  artwork_id: g7.id
+)
+
+g7s3 = Sketch.create(
+  icon: -4000,
+  media: "image",
+  link: "http://csunworks.com/image/design/visiting_designers/visiting_designers3.jpg",
+  artwork_id: g7.id
+)
+
+g7s4 = Sketch.create(
+  icon: -4050,
+  media: "image",
+  link: "http://csunworks.com/image/design/visiting_designers/visiting_designers4.jpg",
+  artwork_id: g7.id
+)
 
 i1 = Artwork.create(
+  icon: -1000,
+  category: "illustration",
+  link: "http://csunworks.com/image/illustration/computer/computer_full.png",
+  media: "image",
+  title: "Cyber Dream Space",
+  year: 2015,
+  material: "Adobe Photoshop",
+  description: "An ongoing series about a girl finding her way through her computer. More images on the way!"
+)
+
+i1s1 = Sketch.create(
+  icon: -1000,
+  media: "image",
+  link: "http://csunworks.com/image/illustration/computer/computer_full.png",
+  artwork_id: i1.id
+)
+
+i1s2 = Sketch.create(
+  icon: -150,
+  media: "image",
+  link: "http://csunworks.com/image/illustration/computer/moniter.jpg",
+  artwork_id: i1.id
+)
+
+i1s2 = Sketch.create(
+  icon: -400,
+  media: "image",
+  link: "http://csunworks.com/image/illustration/computer/debug.jpg",
+  artwork_id: i1.id
+)
+
+i1s3 = Sketch.create(
+  icon: -450,
+  media: "image",
+  link: "http://csunworks.com/image/illustration/computer/explore.jpg",
+  artwork_id: i1.id
+)
+
+i2 = Artwork.create(
+  icon: -350,
+  category: "illustration",
+  link: "http://csunworks.com/image/illustration/skyline.jpg",
+  media: "image",
+  title: "Skyline",
+  year: 2013,
+  material: "Adobe Illustrator",
+  description: "During my internship at Ironik Design & Post, Inc., I created a banner for their website."
+)
+
+i3 = Artwork.create(
+  icon: 0,
+  category: "illustration",
+  link: "http://csunworks.com/image/illustration/atif_sensei.jpg",
+  media: "image",
+  title: "Gift for Atif Sensei",
+  year: 2012,
+  material: "Adobe Photoshop",
+  description: "Commissioned by Rayan Salem Alamery. Image was a gift for his teacher."
+)
+
+i4 = Artwork.create(
   icon: -250,
   category: "illustration",
   link: "https://player.vimeo.com/video/106350335?h=92e3de534f",
@@ -145,18 +430,293 @@ i1 = Artwork.create(
   </p>"
 )
 
-i2 = Artwork.create(
-  icon: -350,
-  category: "illustration",
-  link: "http://csunworks.com/image/illustration/skyline.jpg",
+i4s1 = Sketch.create(
+  icon: -250,
+  media: "video",
+  link: "https://player.vimeo.com/video/106350335",
+  artwork_id: i4.id
+)
+
+i4s2 = Sketch.create(
+  icon: -800,
   media: "image",
-  title: "Skyline",
+  link: "http://csunworks.com/image/illustration/the_snow_maiden/lel.jpg",
+  artwork_id: i4.id
+)
+
+i4s3 = Sketch.create(
+  icon: -850,
+  media: "image",
+  link: "http://csunworks.com/image/illustration/the_snow_maiden/mitzgir.jpg",
+  artwork_id: i4.id
+)
+
+i4s4 = Sketch.create(
+  icon: -900,
+  media: "image",
+  link: "http://csunworks.com/image/illustration/the_snow_maiden/storyboard.jpg",
+  artwork_id: i4.id
+)
+
+i4s5 = Sketch.create(
+  icon: -950,
+  media: "video",
+  link: "https://player.vimeo.com/video/116282951",
+  artwork_id: i4.id
+)
+
+i5 = Artwork.create(
+  icon: -300,
+  category: "illustration",
+  link: "http://csunworks.com/image/illustration/super_tyler/super_tyler.jpg",
+  media: "image",
+  title: "The Amazing Adventures of Super Tyler and Bodhi Blades",
   year: 2013,
-  material: "Adobe Illustrator",
-  description: "During my internship at Ironik Design & Post, Inc., I created a banner for their website."
+  material: 'Adobe Photoshop and Illustrator, 8" X 10"',
+  description: "As commissioned by Carley Eisenberg, I designed the characters and cover for her comic."
+)
+
+i5s1 = Sketch.create(
+  icon: -300,
+  media: "image",
+  link: "http://csunworks.com/image/illustration/super_tyler/super_tyler.jpg",
+  artwork_id: i5.id
+)
+
+i5s2 = Sketch.create(
+  icon: -500,
+  media: "image",
+  link: "http://csunworks.com/image/illustration/super_tyler/char_pre_design.jpg",
+  artwork_id: i5.id
+)
+
+i5s3 = Sketch.create(
+  icon: -550,
+  media: "image",
+  link: "http://csunworks.com/image/illustration/super_tyler/char_carley.jpg",
+  artwork_id: i5.id
+)
+
+i5s4 = Sketch.create(
+  icon: -600,
+  media: "image",
+  link: "http://csunworks.com/image/illustration/super_tyler/char_tyler.jpg",
+  artwork_id: i5.id
+)
+
+i5s5 = Sketch.create(
+  icon: -650,
+  media: "image",
+  link: "http://csunworks.com/image/illustration/super_tyler/cover_sketch.jpg",
+  artwork_id: i5.id
+)
+
+i5s6 = Sketch.create(
+  icon: -700,
+  media: "image",
+  link: "http://csunworks.com/image/illustration/super_tyler/title_sketch.jpg",
+  artwork_id: i5.id
+)
+
+i5s7 = Sketch.create(
+  icon: -750,
+  media: "image",
+  link: "http://csunworks.com/image/illustration/super_tyler/cover_line.jpg",
+  artwork_id: i5.id
+)
+
+i6 = Artwork.create(
+  icon: -100,
+  category: "illustration",
+  link: "http://csunworks.com/image/illustration/dahoom.jpg",
+  media: "image",
+  title: "Dahoom's Rage in BicCamera",
+  year: 2011,
+  material: 'Adobe Photoshop, 7.86" X 11"',
+  description: "<p>Commissioned by Rayan Salem Alamery. Image can be found <a target='_blank' href='http://rayan-alamery.blogspot.com/2011/11/blog-post_26.html'>here</a>."
+)
+
+i7 = Artwork.create(
+  icon: -200,
+  category: "illustration",
+  link: "http://csunworks.com/image/illustration/mikaela.jpg",
+  media: "image",
+  title: "Mikaela Character Sheet",
+  year: 2013,
+  material: "Adobe Photoshop"
+)
+
+i8 = Artwork.create(
+  icon: -50,
+  category: "illustration",
+  link: "http://csunworks.com/image/illustration/carpet.jpg",
+  media: "image",
+  title: "Flying Through Cyberspace",
+  year: 2009,
+  material: 'Acrylic, 18" X 24"'
 )
 
 t1 = Artwork.create(
+  icon: -3200,
+  category: "3d",
+  link: "https://player.vimeo.com/video/106026810",
+  media: "video",
+  title: "Animation Demo Reel",
+  year: 2014,
+  material: "Autodesk Maya, Blender, Adobe After Effects",
+  description: "<p>00:00-00:08</p>
+    <p>CSA Motion Graphics</p>
+    <p><i>Responsibilities: Logo design, storyboard, model, texture, light, particles, timing, animation, render, compositing</i></p>
+    <br>
+    <p>00:08-00:13</p>
+    <p>Book Shader</p>
+    <p><i>Responsibilities: Texture, render</i></p>
+    <br>
+    <p><i>00:13-00:19</i></p>
+    <p>Compass</p>
+    <p><i>Responsibilities: Model, texture, render</i></p>
+    <br>
+    <p>00:19-00:25</p>
+    <p>Bedroom</p>
+    <p><i>Responsibilities: Design, layout, model, texture, light, render</i></p>
+    <br>
+    <p>00:25-00:30</p>
+    <p>Character Walk Cycle</p>
+    <p><i>Responsibilities: Design, orthographic drawing, model, texture, rig, timing, animation, render</i></p>
+    <br>
+    <p>00:30-00:55</p>
+    <p>Somewhere Out There (Scene II opening)</p>
+    <p><i>Responsibilities: Timing, animation, render, music (not included in demo)</i></p>
+    <br>
+    <p>00:55-01:00</p>
+    <p>Hair Simulation</p>
+    <p><i>Responsibilities: Hair model, hair texture, light, nCloth dynamics, render</i></p>
+    <br>
+    <p>01:00-01:03</p>
+    <p>3D Replica of BMW's 2011 i8 Spyder</p>
+    <p><i>Responsibilities: Orthographic drawing, model, texture, light, render</i></p>
+    <br>
+    <p>01:03-01:06</p>
+    <p>Time</p>
+    <p><i>Responsibilities: Storyboard, timing, lip-syncing, animation, set modelling, set texturing, light, render</i></p>
+    <br>
+    <p>01:06-01:19</p>
+    <p>Somewhere Out There (Falling)</p>
+    <p><i>Responsibilities: Light, timing, animation, render, music (not included in demo)</i></p>"
+)
+
+t2 = Artwork.create(
+  icon: -3250,
+  category: "3d",
+  link: "https://player.vimeo.com/video/115610708",
+  media: "video",
+  title: "Time",
+  year: 2014,
+  material: "Autodesk Maya, Adobe Photoshop and After Effects",
+  description: "Animation off of 11 Second Club's October 2010 audio."
+)
+
+t3 = Artwork.create(
+  icon: -3300,
+  category: "3d",
+  link: "http://csunworks.com/image/3d/book.jpg",
+  media: "image",
+  title: "Book Shader",
+  year: 2014,
+  material: "Autodesk Maya and Adobe Photoshop",
+  description: "Using a book mesh, I shaded the book to look old and worn."
+)
+
+t4 = Artwork.create(
+  icon: -3350,
+  category: "3d",
+  link: "https://player.vimeo.com/video/107633613",
+  media: "video",
+  title: "Compass",
+  year: 2012,
+  material: "Autodesk Maya and Adobe Photoshop"
+)
+
+t5 = Artwork.create(
+  icon: -3400,
+  category: "3d",
+  link: "https://player.vimeo.com/video/106459805",
+  media: "video",
+  title: "All in a Day's Walk",
+  year: 2012,
+  material: "Blender, Adobe After Effects"
+)
+
+t6 = Artwork.create(
+  icon: -3450,
+  category: "3d",
+  link: "https://player.vimeo.com/video/106459842",
+  media: "video",
+  title: "Character Walk Cycle",
+  year: 2014,
+  material: "Autodesk Maya"
+)
+
+t6s1 = Sketch.create(
+  icon: -3450,
+  media: "video",
+  link: "https://player.vimeo.com/video/106459842",
+  artwork_id: t6.id
+)
+
+t6s2 = Sketch.create(
+  icon: -3700,
+  media: "video",
+  link: "https://player.vimeo.com/video/107633612",
+  artwork_id: t6.id
+)
+
+t7 = Artwork.create(
+  icon: -3500,
+  category: "3d",
+  link: "https://player.vimeo.com/video/106459841",
+  media: "video",
+  title: "Somewhere Out There",
+  year: 2012,
+  material: "Autodesk Maya, Adobe After Effects and Photoshop",
+  description: '<p>Animation project with Nicholas Allegra and <a href="http://portfolios.risd.edu/StacyJLee" target="_blank">Stacy Lee</a>.</p>'
+)
+
+t8 = Artwork.create(
+  icon: -3550,
+  category: "3d",
+  link: "https://player.vimeo.com/video/109282389",
+  media: "video",
+  title: "CSA Motion Graphics",
+  year: 2014,
+  material: "Autodesk Maya, Adobe After Effects"
+)
+
+t9 = Artwork.create(
+  icon: -3600,
+  category: "3d",
+  link: "http://csunworks.com/image/3d/bedroom/room1.jpg",
+  media: "image",
+  title: "Bedroom",
+  year: 2014,
+  material: "Autodesk Maya, Adobe Photoshop"
+)
+
+t9s1 = Sketch.create(
+  icon: -3600,
+  media: "image",
+  link: "http://csunworks.com/image/3d/bedroom/room1.jpg",
+  artwork_id: t9.id
+)
+
+t9s2 = Sketch.create(
+  icon: -3750,
+  media: "image",
+  link: "http://csunworks.com/image/3d/bedroom/room2.jpg",
+  artwork_id: t9.id
+)
+
+t10 = Artwork.create(
   icon: -3650,
   category: "3d",
   link: "http://csunworks.com/image/3d/car/car.jpg",
@@ -164,6 +724,27 @@ t1 = Artwork.create(
   title: "3D Replica of BMW's 2011 i8 Spyder",
   year: 2014,
   material: "Autodesk Maya, Adobe Photoshop"
+)
+
+t10s1 = Sketch.create(
+  icon: -3650,
+  media: "image",
+  link: "http://csunworks.com/image/3d/car/car.jpg",
+  artwork_id: t10.id
+)
+
+t10s2 = Sketch.create(
+  icon: -3800,
+  media: "image",
+  link: "http://csunworks.com/image/3d/car/wireframe.jpg",
+  artwork_id: t10.id
+)
+
+t10s2 = Sketch.create(
+  icon: -3850,
+  media: "image",
+  link: "http://csunworks.com/image/3d/car/ao.jpg",
+  artwork_id: t10.id
 )
 
 p1 = Artwork.create(

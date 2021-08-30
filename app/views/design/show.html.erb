@@ -1,6 +1,6 @@
 <div id='sketch-frame'>
     <div id='sketch'>
-        <div id='cont-nav' style='width: <%= @sketches.length > 0 ? 504 : 236 %>px;'>
+        <div id='cont-nav' style='width: <%= @sketches.length > 0 ? 483 : 236 %>px;'>
             <div id='prev' class='toggle'>Previous</div>
             <div class='toggle hide'>Return to the slideshow</div>
             <div id='next' class='toggle'>Next</div>
@@ -20,8 +20,8 @@
             <%= @design.material %>
             <p><%= raw @design.description %></p>
         </div>
+        <p class='nav-title'>Additional Images:</p>
         <div id='work-nav' style='width: <%= @sketches.length * 60 + 60 %>px;'>
-            <p>Additional Images:</p>
             <% @sketches.each do |x| %>
                 <div class='icon <%= x.id == @sketches.first.id ? "select" : "" %>' style='background-position: <%= x.icon %>px 0px;'%></div>
             <% end %>
@@ -29,7 +29,7 @@
     </div>
 </div>
 <div id='work-cont'>
-    <div id='cont-nav' style='width: <%= @sketches.length > 0 ? 504 : 236 %>px;'>
+    <div id='cont-nav' style='width: <%= @sketches.length > 0 ? 483 : 236 %>px;'>
         <%= link_to 'Previous', design_path(@prev), :id => 'prev' %>
         <% if @sketches.length > 0 %>
             <div class='toggle show'>Click here for more images</div>
@@ -49,8 +49,8 @@
         <%= @design.material %>
         <p><%= raw @design.description %></p>
     </div>
+    <p class='nav-title'>View more works like this!</p>
     <div id='work-nav' style='width: <%= @designs.length * 60 + 60 %>px;'>
-        <p>View more works like this!</p>
         <% @designs.each do |x| %>
             <a href='<%= design_path(x.id) %>'><div class='icon <%= x.id == @design.id ? "select" : "" %>' style='background-position: <%= x.icon %>px 0px;'%></div></a>
         <% end %>

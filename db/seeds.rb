@@ -564,45 +564,36 @@ t1 = Artwork.create(
   title: "Animation Demo Reel",
   year: 2014,
   material: "Autodesk Maya, Blender, Adobe After Effects",
-  description: "<p>00:00-00:08</p>
-    <p>CSA Motion Graphics</p>
-    <p><i>Responsibilities: Logo design, storyboard, model, texture, light, particles, timing, animation, render, compositing</i></p>
-    <br>
-    <p>00:08-00:13</p>
-    <p>Book Shader</p>
-    <p><i>Responsibilities: Texture, render</i></p>
-    <br>
-    <p><i>00:13-00:19</i></p>
-    <p>Compass</p>
-    <p><i>Responsibilities: Model, texture, render</i></p>
-    <br>
-    <p>00:19-00:25</p>
-    <p>Bedroom</p>
-    <p><i>Responsibilities: Design, layout, model, texture, light, render</i></p>
-    <br>
-    <p>00:25-00:30</p>
-    <p>Character Walk Cycle</p>
-    <p><i>Responsibilities: Design, orthographic drawing, model, texture, rig, timing, animation, render</i></p>
-    <br>
-    <p>00:30-00:55</p>
-    <p>Somewhere Out There (Scene II opening)</p>
-    <p><i>Responsibilities: Timing, animation, render, music (not included in demo)</i></p>
-    <br>
-    <p>00:55-01:00</p>
-    <p>Hair Simulation</p>
-    <p><i>Responsibilities: Hair model, hair texture, light, nCloth dynamics, render</i></p>
-    <br>
-    <p>01:00-01:03</p>
-    <p>3D Replica of BMW's 2011 i8 Spyder</p>
-    <p><i>Responsibilities: Orthographic drawing, model, texture, light, render</i></p>
-    <br>
-    <p>01:03-01:06</p>
-    <p>Time</p>
-    <p><i>Responsibilities: Storyboard, timing, lip-syncing, animation, set modelling, set texturing, light, render</i></p>
-    <br>
-    <p>01:06-01:19</p>
-    <p>Somewhere Out There (Falling)</p>
-    <p><i>Responsibilities: Light, timing, animation, render, music (not included in demo)</i></p>"
+  description: "<p>00:00-00:08<br />
+    CSA Motion Graphics<br />
+    <i>Responsibilities: Logo design, storyboard, model, texture, light, particles, timing, animation, render, compositing</i></p>
+  <p>00:08-00:13<br />
+    Book Shader<br />
+    <i>Responsibilities: Texture, render</i></p>
+  <p><i>00:13-00:19</i><br />
+    Compass<br />
+    <i>Responsibilities: Model, texture, render</i></p>
+  <p>00:19-00:25<br />
+    Bedroom<br />
+    <i>Responsibilities: Design, layout, model, texture, light, render</i></p>
+  <p>00:25-00:30<br />
+    Character Walk Cycle<br />
+    <i>Responsibilities: Design, orthographic drawing, model, texture, rig, timing, animation, render</i></p>
+  <p>00:30-00:55<br />
+    Somewhere Out There (Scene II opening)<br />
+    <i>Responsibilities: Timing, animation, render, music (not included in demo)</i></p>
+  <p>00:55-01:00<br />
+    Hair Simulation<br />
+    <i>Responsibilities: Hair model, hair texture, light, nCloth dynamics, render</i></p>
+  <p>01:00-01:03<br />
+    3D Replica of BMW's 2011 i8 Spyder<br />
+    <i>Responsibilities: Orthographic drawing, model, texture, light, render</i></p>
+  <p>01:03-01:06<br />
+    Time<br />
+    <i>Responsibilities: Storyboard, timing, lip-syncing, animation, set modelling, set texturing, light, render</i></p>
+  <p>01:06-01:19<br />
+    Somewhere Out There (Falling)<br />
+    <i>Responsibilities: Light, timing, animation, render, music (not included in demo)</i></p>"
 )
 
 t2 = Artwork.create(
@@ -750,35 +741,238 @@ t10s2 = Sketch.create(
 p1 = Artwork.create(
   icon: -4150,
   category: "photography",
-  link: Rails.root.join('app', 'assets', 'images', 'alaska_main.png'),
+  link: "https://raw.githubusercontent.com/amekiro/codecademy-portfolio-project/main/app/assets/images/alaska_main.png",
   media: "image",
   title: "Photographs From Trip to Alaska",
   year: 2017
 )
 
+p1s1 = Sketch.create(
+  icon: -4550,
+  media: "image",
+  link: "https://lh3.googleusercontent.com/pw/AM-JKLU27DPO5-C3NE7q6KDp5_0Rug6A0tls06-cKR9SogpKuzpCrvdr_tdULwUt43Ho5eVCqNGtEJk8BT69Omel_XmNAqZXMex3ocVmixG5cwsz4Gi8VNBE7yz4NiOsSWxiSt7tZrQYXBw8XivSKh9ZH0Jg=w1354-h903-no?authuser=0",
+  artwork_id: p1.id
+)
+
+p1s2 = Sketch.create(
+  icon: -4600,
+  media: "image",
+  link: "https://lh3.googleusercontent.com/pw/AM-JKLWAwVgd5nPec92NEKhRG8lmeoWsIYKHujRDgUmap78teO3ZurKlYez3RbMYDMA7z6D3Q5CEK1YIRGLnLRFwL12VDj0_gJAa6ByA8P7lTVZWKgJd4KWn7AB13VXoQu3WKikxdyzwYIYrhpeCx82bNZAg=w1354-h903-no?authuser=0",
+  artwork_id: p1.id
+)
+
+p1s3 = Sketch.create(
+  icon: -4650,
+  media: "image",
+  link: "https://lh3.googleusercontent.com/pw/AM-JKLU_uJVKLWdCmMJYiPf2BOSDhJmSqfa0XO8quZ6Gf3MpWN26cMRDLYqzsdIms24be7gk14ybrEbXAHqbV24lHR4IU2GZLTFKIWaoVeFbcqIyA2RggjieQJk-TBTBU5JmxeaI8N_iM0A-wIChZbj7Krl6=w1354-h903-no?authuser=0",
+  artwork_id: p1.id
+)
+
+p1s4 = Sketch.create(
+  icon: -4700,
+  media: "image",
+  link: "https://lh3.googleusercontent.com/pw/AM-JKLUFgI-o3wx_gvk-rdXSL_M1q14EN3Oiq8tCFtX9c0JWVmg8MuPp77Gwq4ijaAForilo6iWxQPVCoiKipesU3_c9funj7vQpghrXl6Vz2gSsJ4Fz3XJ8UGng4YZAt0ekMR2Rpm4_-m_FJDAicOH4vc8q=w1354-h903-no?authuser=0",
+  artwork_id: p1.id
+)
+
 p2 = Artwork.create(
   icon: -4200,
   category: "photography",
-  link: Rails.root.join('app', 'assets', 'images', 'japan_main.png'),
+  link: "https://raw.githubusercontent.com/amekiro/codecademy-portfolio-project/main/app/assets/images/japan_main.png",
   media: "image",
   title: "Photographs From Trip to Japan",
   year: 2017
 )
 
+p2s1 = Sketch.create(
+  icon: -4750,
+  media: "image",
+  link: "https://lh3.googleusercontent.com/pw/AM-JKLVLGGQ-mqL9efS4J5EzY5wlfK8OWFkE9ndrHyu16uXvi042cKtEwuPPZ17tOwbK9D_TwHUrbK8ugng8ey7ktTXd6wI1tMXSOq10KSkO2z-vsloPGI-GEt_CX4LYFTWQorAu0iyUKd4vHWHfiLwbcxUH=w1470-h715-no?authuser=0",
+  artwork_id: p2.id
+)
+
+p2s2 = Sketch.create(
+  icon: -4800,
+  media: "image",
+  link: "https://lh3.googleusercontent.com/pw/AM-JKLXFMIX3Cmyj4TB4-UGO_6ZHHwp__eGyBd64NbM1L91k07srexua3IuA9xdlu8wxDEfQqMsLInXTVvkIf-fK5XlMwl0KRAkN8XP-CWTyPXdSdgo9roY26FfE21S1-DZ2ensz5JI_nOGiB8ycuQGZmflK=w1470-h333-no?authuser=0",
+  artwork_id: p2.id
+)
+
+p2s3 = Sketch.create(
+  icon: -4850,
+  media: "image",
+  link: "https://lh3.googleusercontent.com/pw/AM-JKLVXZy2I3keYvntiXhtQajgAVXSMao35QJmIZZ1y_Ay4M4SMZiU9quVdxyMWf9SRCEAiooup6sHDVbScgi4hTncKHQKEYx2N7WMQDIEqy98kgcG1Ds7U7BXHTfgPoN6-QEbkmtBVM_4BVDtztzyu_egr=w1470-h715-no?authuser=0",
+  artwork_id: p2.id
+)
+
+p2s4 = Sketch.create(
+  icon: -4900,
+  media: "image",
+  link: "https://lh3.googleusercontent.com/pw/AM-JKLWNxhDj9rycqysqMpFG7yFh_4r6ult_1eZ1lQXvuKcAYxe3ZGJNrhTfVxL26sZl5ZM7Kt25KRKoTPtOAAthl-tdAndgKfrxCRWDQ1zhdl_lTWEG3uI1B7HhHZTN3DVd-FwBSslNyS73_3DO9l0wc5XZ=w439-h903-no?authuser=0",
+  artwork_id: p2.id
+)
+
 p3 = Artwork.create(
   icon: -4100,
   category: "photography",
-  link: Rails.root.join('app', 'assets', 'images', 'miso_main.png'),
+  link: "https://raw.githubusercontent.com/amekiro/codecademy-portfolio-project/main/app/assets/images/miso_main.png",
   media: "image",
   title: "Photographs of Pembroke Welsh Corgi, Miso",
   year: 2020
 )
 
+p3s1 = Sketch.create(
+  icon: -4300,
+  media: "image",
+  link: "https://lh3.googleusercontent.com/5h6rXJh53ucfankXf_AOewRCsjQmEJy7qgPLORzF4ACKJ97ZURTA3Jrr2CLan6vxoW-9JIXqWLODAJDKrPVOXyNqOKNb-uVe_fcZJTtkNeohZtsV6TXOXNYc_wmsJo9ET3hoUh9z-siD5y75ppS_atb95wm32I3etCnCIJmGAj6628EIsEySTQhJxYynM3hiXoyEvsMaenWkNAeZgiYToRsU3igm_wUiuygWzUX3mqh4qSmvbhRyk5zyFxkzutAmmcX1dkUBvc07u6AwcJdFtAd-C24alM2qPqeqv58WrEe3DKas2MX8Ef9e-W2iVDMDQEx4fq_vWbUD96uI1HcmkigcP5T6LlvFNOVxKwiiAN7SjTop_12S8QreHw6QkmVUQv26EpGIeHNaprRDucVBoxQ0CSVQumR3_vw72hlBAcpkpYwM1mV_Ws91Y1GWSx4mYbddLIUkhrN2cVAWXBIU2t38QigQPtk2AW8UdNKjQT9GZ4CjaQpMvQcbZwUGDufKioJpF9B672yNsB_osaaIdePhfEuVATCwAv6ocJpegTSyH3jspZYGBKKwff1qWDs7CRklvP1X4UeX9ISQhvTr8KLBNrkrgfyxHYp9jg0276vOkSHKoXKlOhpQhL5UHwze0h_3XT7KysV3l83Kd0zgCd1P0qP2tHl5r-54Hto5h4HFRhmKCckE5lPG9OAiqjYsILSWvPT89Q1TT-MJUxd1EVdM9A=w1470-h828-no?authuser=0",
+  artwork_id: p3.id
+)
+
+p3s2 = Sketch.create(
+  icon: -4350,
+  media: "image",
+  link: "https://lh3.googleusercontent.com/3tmnNoxHtBDpUlKRQY4f3-QqDM3d0k2FK1c14MbGqRGW7fJgX8muHEAqFlom8mdwbdAAx3ARcSYzc1wwYPCCcG336808gkTGMWGVXfZhh4hrS1ZE7P4mz06f_wqwcMpPTE_5elFgbpK6KJuWYuq_UoDzVx_APGhlC3o_9jVlZ795uOEkztOkdfhUwL6yZSA3wIxW6b1z-4rTg8p-nUGNmdvDvdBKAxMuwc_O9KSySLf5609l5XtUZ1GB8NZxLaAP-20cKST5zGlPk3xMWI9b9F1ymJlGHR42dKKZEHZQNLBrE8lxF7cRrJeRETYrPxesJNqvNNbz2fnFKGC6_L2mSNYinGD7FXwLTg4zymNQflYbGRd1MH6RbbBkudYda1WPWmzsLbXNo5LUDiEsPGN3EX7ZJa7X1qcB2Tlx_3K6Lxofn2W0Ml9-D-Zk4bqON962atd151N-VFgXmVCIgtMXteQ3F-FJpoUczVLfTcDrf7olBBQgtHnlK1uR0MUiUH-w5jOZN2m7UQWI5w98eHx6McgWXzoM1k23N5kgY_FaBRxamQsuMNqy52U2lbhpAWZBx9NuPCz_FZuqgw7_kSXWH-V_G2zQDn4bi3LpEuOvoO0mlgjDjri_u1fAMbbhReMYZ-Bppc2_iJmRaLVYmDIeszE3BW2Os5GtRZA2nd9GpLDbNfR1DjX0yw9Ig_cMOazp5K_45VI9zOS_DiNP8ovuX56-dw=w1470-h688-no?authuser=0",
+  artwork_id: p3.id
+)
+
+p3s3 = Sketch.create(
+  icon: -4400,
+  media: "image",
+  link: "https://lh3.googleusercontent.com/uhvhc4xKGh6vNli8-daI9muwXl1oGmNUJBFQ4APEP6EkcutHQOdK72vrN3prJApuoRbVWHcjOxS2MTYtbjhuQA72XBBWkYwF4cGbni8KY3IbyD3s4aRxI1QL5YfbDVKBOQzgja3M5_zeyGIr77F40-GbUnvdMrZzMkgEbDXF_1Z-tQsQI_l53Eo7lRndAgjK-2wGpYcb7rt4A_PUJDQcjjN7ZtiQepkr9-SqyVM8aKaFgrcw-T0V4etUo90GN-K-ld61etm34L-1ajLHkBnm88sT45uPhfTJ-cVQdp-KK8Fz5FZEnO6WodUD98UyGTG9pZLQWvzP0ZvJmdFzkHbRB87f7t-2je4lp5-lK7m4hfKnz2y2Zw6IXCGU6q7Y9E4-8P7FUIwaVCofDfWjL7ZjPB4ox5qbKIIU0-cWTsHzGgdJXf0RTSY8dmPpmmMTceqtBR5TiVibQceJUGH0OBAfSKHYGlPMTgprcuskAaJuESCQ7J9Ik-jCdrgAOot7rtAzTO-ag90j1HJpQDqNEO5T0LdcrUiYf8XNEN9-LJDtrHohunJw2lkBDie8pQtrZ97oVeJ4NHlB8zup5JIsl2mPWIWY-ZQq9NalL22QQgVfbO1o4TkKpIsmoXL_FGi2ZWTBnpIi55ZwMEilPt-HxzSnO9mUemIO_xU2dJHQSCvvlvRGLxDuWlOdBeqDzrZczve9yE9a45pgT69DS40gaO3GtSBVHg=w678-h903-no?authuser=0",
+  artwork_id: p3.id
+)
+
+p3s4 = Sketch.create(
+  icon: -4450,
+  media: "image",
+  link: "https://lh3.googleusercontent.com/CziiXt1U6di53RnUQy1SRg6b3U3_U0bePLsL4NwB5y94KCON5pmy85Z5FTQFAKybmxw4N7HakZs6CVH6kzLBquMiJUNfwnpOhnxOmkGw4Lw3cnWk1wkwNXjnGRLljuv6zlPCNss9buWUM0aNAlfeAPciQwgaMYTjF1UdWYxkIxHjrP40crI8qgWtTshcl4W_88LExDMddTfnrRYjwAMyXQJ2xVUQpy_DqsYV0QMwgvZDyS9_VAbClm3FwKnbD2QWh_RY933Dfn44UOb2QxqMdAbyIjFuuEqEebz__Mv6V_PrCHFvjd7vEXuDlL9oOA8ZqI4_oE6yqHljJes_hyxMMOSdzEW1HxqpIha9ZFuFqXaaIZr3bbxOlNrzfJxEehnyh9TgTYZ1rlVQ4M7TwmoyULyA8j0BL1gqoB4BaIaVo07zUVogjd83SZN-wKrZc3GVvnvIQzLJT02XhIS58W9nigO1qVku9FCzZU2pX08MqUKWQsSp0O7QysYiOSx0NZLJZLsZvQBXCq4lCy-rDNi1SdxCzhlOW0mCvBOcLCPMwpiTiLZNda2NXdrkh3FWhpTy55YBE5JQt7ONL1Ojxrz03OR5lHdh5k8BhfnCUT1hD1jAZOqkcxnIcdeTsFdVLmx3up9EgKshnu0_l-68AVP7tDIad0z6yRcT0n4--PqEvSxuFZeWpZHpOXrc6y19Mau_ISdzwFhdPY3jfh8ncR32VlvIQQ=w1470-h688-no?authuser=0",
+  artwork_id: p3.id
+)
+
+p3s5 = Sketch.create(
+  icon: -4500,
+  media: "image",
+  link: "https://lh3.googleusercontent.com/yy1G4bAaZBFduY0kEf67Mjw3VMTICyHTtayEhG_9_TZuIP35QIEVJle8FWZzW5Vo1dk7wL6FzTwWVWf70COAFtqn95Oz5llEPJGPsPSs6PSq4slJ3rkorm01BwsVWtWxby2nw3h45m6mCzkQwNFyH-3-Qxj5dRknZ3Bsc0wRJgSekJkoDukOBSBb9gliTPpYFfO0a6uBVNgAKksIQO08YEu8f7Ct8G3qchn61qHfB4AFafLhATXTyNP1CuQBwuhqNSioNd6VM4PNp_foOICGc-gsqEf9HUZHw33mGzTvqjGlaAOZHyT-nccdnK-9qCM1aQwdw5p_uZ9tuAvTaR0TCIEQy4RJgncRE16uFd8k5OCJTayIlSWA8-K6473rb5QWvxiK7obCgODf0m8C1Ztp1oXI1lLSgJ5qLCgNUrjhJGVDF_h8nrQUSzEvfVyuNI5ApGBCrLK8Tp5VOhcx_cKaZP7CgDViVPvErj5zZZ-ffcSXWxrbkUD1t-l66BZQQFPweJXaQcMOz0UVnagxhJPefIcpFyuyDgQoySz3uQYoM5Wr-SBJ7eYh-6hB4sUs7YcOH0vjBJsUOqkmZ-jqM0G2AkSFJJvxBpUqueqJjCqi57WURLsfdjbSodH9uhLG0glYrW1QZXLblkUUVkgOvIC_LAs7Mx0X61taG00BBx-SB9vUm8IG8uIwWWxxyVXKvCtIJTscej2COpSDgbdutBCMtiE7FQ=w690-h903-no?authuser=0",
+  artwork_id: p3.id
+)
+
 p4 = Artwork.create(
   icon: -4250,
   category: "photography",
-  link: Rails.root.join('app', 'assets', 'images', 'switzerland_main.png'),
+  link: "https://raw.githubusercontent.com/amekiro/codecademy-portfolio-project/main/app/assets/images/switzerland_main.png",
   media: "image",
   title: "Photographs From Trip to Switzerland",
   year: 2019
+)
+
+p4s1 = Sketch.create(
+  icon: -4950,
+  media: "image",
+  link: "https://lh3.googleusercontent.com/pw/AM-JKLVIzpU6ZtSXFdfp36g1RXF_z-ZqiIJYL1npf889CFQks-6MB1QuJTsUSbFFgGMkSvFlUMPrDfvlioeAc1MXaink0OP9eqogoe0dvLgGuDVQ2XOBAEjAt9PXIRlbx6p60FHn6ltLJES4vPIJ681meePR=w1354-h903-no?authuser=0",
+  artwork_id: p4.id
+)
+
+p4s2 = Sketch.create(
+  icon: -5000,
+  media: "image",
+  link: "https://lh3.googleusercontent.com/pw/AM-JKLX7dUEETrzEt3axdFdYwsJxRB60lyfwGXsUwKIYGDd15qXKe5MxQacWiIB1S3YVgI5QevvOAm_ZiwWnfR_YngWhZRZWrzntI2MP3gpcjIBm27Ig456yL5VEsQNOjRkpYq-MBKRwOlJrBTDR8LC31k1d=w1354-h903-no?authuser=0",
+  artwork_id: p4.id
+)
+
+p4s3 = Sketch.create(
+  icon: -5050,
+  media: "image",
+  link: "https://lh3.googleusercontent.com/pw/AM-JKLUFdpI_KCgQHdoK_AaMe9ZxswxXp1PU5Jt8EFYGga9kavcpTOmw7ww8KTLgOoPTWwBD14Gi7STsoQi2bZm5dUHx0hZxtzTl2MrKZ-5-rMmhpEPU_y4dJsW0ZlzLRm5Zsa4cYHmYfQBJdkcrWljb6v3O=w1354-h903-no?authuser=0",
+  artwork_id: p4.id
+)
+
+p4s4 = Sketch.create(
+  icon: -5100,
+  media: "image",
+  link: "https://lh3.googleusercontent.com/pw/AM-JKLWnkcNeVkiOxKN4B2_0bBjlSEmEamdxDtcBCiZa9u_-1GSF76WkoY8CUzKg0b8_CKkZBCohKyGCECfqT11P9-QmZabFZbQcrmYk2lPBuds9WjWVCRtD_vR9V9jHowy9Fixi0AfGAJwOVv0_rSbvQ2_n=w1354-h903-no?authuser=0",
+  artwork_id: p4.id
+)
+
+p4s5 = Sketch.create(
+  icon: -5150,
+  media: "image",
+  link: "https://lh3.googleusercontent.com/pw/AM-JKLWB7NJxADlPuwwHV65X0b0RXEQi0o1Ui6Xmc-2ZQcACMDDXE9sQJXDiQd_It7eEYMLaAkhXoFb3VsADVaegTV4B9T6SPyJb9L3VHMb8KU3gxXa81Esaxg0SYzMuTBXjJqsONxIh2I4Y5AEz6BlIJn08=w1354-h903-no?authuser=0",
+  artwork_id: p4.id
+)
+
+p4s6 = Sketch.create(
+  icon: -5200,
+  media: "image",
+  link: "https://lh3.googleusercontent.com/pw/AM-JKLXMfQc-KtZ42ZwAt3_nReWYgXCaHlfLh9PEP_7Kcgfh9sVhmL_7S8oDAd2466tQX12oaC4R2vEScjbOa_2OwNEgCsNHRh2HOwmslQrgtYZ1bJ8sCZ-dcWDjnkHte-v28ZHVPJwVqhHO_d9WCyHqJeCg=w1354-h903-no?authuser=0",
+  artwork_id: p4.id
+)
+
+p4s7 = Sketch.create(
+  icon: -5250,
+  media: "image",
+  link: "https://lh3.googleusercontent.com/pw/AM-JKLXhtDM_oESGWtD0B_DJl4yhj6nAJWkRaT6JEHHqXZe0ohPgPuu39S-fmeBWlKEvBdrXwn7wqL0T3l9brPqU_b3pPGKSgtEtWh94ZxD8ScVDRVOjcTCvCWY2Lp3AGq75OCji2t4j2PM7jz9MZaMLS-yY=w1355-h903-no?authuser=0",
+  artwork_id: p4.id
+)
+
+p4s8 = Sketch.create(
+  icon: -5300,
+  media: "image",
+  link: "https://lh3.googleusercontent.com/pw/AM-JKLWrmUgcknEKeiLo2kqFxmR6uUsarYKg3_gV5KYnTn_PZyDOjRT1DNq3itPq_O0NWfYdic42usaAkuG1G-a9rsbbjYHkmEnRTBNPC3H5-7al8W4l5WnQMmdwdIsiIolbmQWC22ot2W9PJvI75IUsbjCF=w603-h903-no?authuser=0",
+  artwork_id: p4.id
+)
+
+p4s9 = Sketch.create(
+  icon: -5350,
+  media: "image",
+  link: "https://lh3.googleusercontent.com/pw/AM-JKLWSOM1HhIEuC4svX1Mrllxt0_uaD3Iq1nID2nUKiEeS_9Q3SqM9x_4mqcdwks8l_VwJwQLPVB8TAgx0LzJOvk_ObPjZgAyk3hEZ1B7IW8iHlkGieKaTpW07dsK_9MHFD_nbsw3vpHfxwgrvjP_S2vdB=w1354-h903-no?authuser=0",
+  artwork_id: p4.id
+)
+
+p4s10 = Sketch.create(
+  icon: -5400,
+  media: "image",
+  link: "https://lh3.googleusercontent.com/pw/AM-JKLW04NGKg6PkMPpEQDs6CtoXZqEqwvBAjrXizdC1De1emG9NORj3weN3ZDXNGDe1t5NgJN_7_pnfo3bd_rv4IBKPQZdsRVB5WJ8R_UIY18AMso4DNqGna7VOngHq3u3jXSTurst6StmIDykTW9YA_6mJ=w1354-h903-no?authuser=0",
+  artwork_id: p4.id
+)
+
+p4s11 = Sketch.create(
+  icon: -5450,
+  media: "image",
+  link: "https://lh3.googleusercontent.com/pw/AM-JKLXDtffky1epJinQ2o9mWzGPFuH5cYVo_fXYbwp2Ljjofgr9-5_oQH_WB5lxgF7mRhS3t3w1C97WoUaQd8i_6jvTsNcc5S0LdhqO5Ai6efrLAgjM_wi5ZJYKq0nXv-cTKrZo8JFmWZ-CxBRuxg2tyNFv=w1354-h903-no?authuser=0",
+  artwork_id: p4.id
+)
+
+p4s12 = Sketch.create(
+  icon: -5500,
+  media: "image",
+  link: "https://lh3.googleusercontent.com/pw/AM-JKLVPXMSsbs01ovuUnFNJJN_9ZbtamI-Heji2dryRZqL8BdaR-zLNIsAYD3BB2CGP617jcGoQtHyDSGPCp-LeA6Dlq6kOpwN8QGNjUL2o-w8gmo-8eeoCb_3FhG9l8w1WJiPTQ68vK_uAGShPkDl_4TAi=w1354-h903-no?authuser=0",
+  artwork_id: p4.id
+)
+
+p4s13 = Sketch.create(
+  icon: -5550,
+  media: "image",
+  link: "https://lh3.googleusercontent.com/pw/AM-JKLXg4-D_AmD4zcuSC67qFkQs96v1VKz8b5MyYRg5K91R-m7xC-tsX2JFXoa5bqGjLhyKwDHDX5TXoWtUB3ZlQl9pdyjXZpYV2VEBOupzej1RoICBKrTRloS-MlWDb9P-NTu6sXz_NnMOFh9QOWV5powI=w1153-h903-no?authuser=0",
+  artwork_id: p4.id
+)
+
+p4s14 = Sketch.create(
+  icon: -5600,
+  media: "image",
+  link: "https://lh3.googleusercontent.com/pw/AM-JKLUy7Ak4V3O9B0v8F_V1GI3r-KCZjlQ8XyYps_g4MGHh32yPApx1ei6_ibm1oNFmJ2nT1P8HBWHppzAmpgXuXkdVDCtiI2ZUIIcN90INvZCOtQKBv7CAKuPRtMINnHgsDjF0jDnwta_XoXLRopECb_5g=w1354-h903-no?authuser=0",
+  artwork_id: p4.id
+)
+
+p4s15 = Sketch.create(
+  icon: -5650,
+  media: "image",
+  link: "https://lh3.googleusercontent.com/pw/AM-JKLX37gysdUcc3ItBl2mgqpxYfZ1_zWGj1HvbFBDYYWMZGJY0FseEWiQX4Mqo4Xq4XILzqluA3eOv2CyT6DIJrI9z_CuiH_xFYkLQTGvKA_hAPizEAfTT_70K45PlOyVE_No2yrEhDz0SGXx6pVUdytwp=w1354-h903-no?authuser=0",
+  artwork_id: p4.id
+)
+
+p4s16 = Sketch.create(
+  icon: -5700,
+  media: "image",
+  link: "https://lh3.googleusercontent.com/pw/AM-JKLWNSb94rTHSjtGyov9R6utFTIog4cUHzLTu010lLZIRo6wxHCEmeZQJSWhR83nQzK3FjT6_43QzrFWPS3GLn9h1KUZnlX_HChme01v4dLARmgh_OWGisG6AY9uRukVum37RfXbL3_yQR7ijZdF7nSDA=w1354-h903-no?authuser=0",
+  artwork_id: p4.id
 )

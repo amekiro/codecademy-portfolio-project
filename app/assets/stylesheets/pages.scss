@@ -9,39 +9,48 @@
 
 header {
     clear: both;
-    background: #b0d8e9;
+    /*background: #b0d8e9;*/
     width: 100%;
-    height: 100px;
+    height: 104px;
     position: relative;
+    border-bottom: rgb(121, 138, 151) solid 12px;
+    background: rgba(29,48,62,1);
+    color: rgb(218, 222, 224);
 }
 
 header h1 {
     position: absolute;
-    left: 20px;
-    bottom: 20px;
+    left: 3%;
+    bottom: 15px;
+    margin: 0;
+    padding: 0;
 }
 
 nav {
     position: absolute;
-    right: 20px;
-    bottom: 20px;
+    right: 3%;
+    bottom: 15px;
+    max-width: 60%;
 }
 
 nav ul {
     list-style-type: none;
     float: right;
+    padding: 0;
+    margin: 0;
 }
 
 nav li {
     float: left;
     margin-left: 25px;
-    margin-top: 15px;
     font-weight: bold;
     text-align: right;
+    padding: 0;
 }
 
 nav a {
-    color: black;
+    /*color: rgba(29,48,62,1);*/
+    color: rgb(218, 222, 224);
     text-decoration: none;
 }
 
@@ -136,9 +145,11 @@ body {
 footer {
     clear: both;
     text-align: right;
-    background: #b0d8e9;
+    background: #f7f7f7;
     padding: 20px 60px;
+    margin-top: 20px;
     width: 100%;
+    border-top: rgb(136, 136, 136) solid 4px;
 }
 
 footer img {
@@ -216,13 +227,15 @@ footer img {
 }
 
 #about {
-    width: 60%;
+    width: 50%;
     padding-left: 40px;
+    float: left;
 }
 
 #contact ul {
     list-style-type: none;
     margin: auto;
+    padding-left: 0;
 }
 
 #contact ul li img {
@@ -233,17 +246,6 @@ footer img {
 }
 
 // CSS for slideshows
-.icon {
-    width: 50px;
-    height: 50px;
-    float: left;
-    margin: 5px;
-    cursor: pointer;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    background-image: url(asset_path('sprite.jpg'));
-}
-
 #work-cont {
     width: 100%;
 }
@@ -260,21 +262,27 @@ footer img {
 #prev, #next {
     background: rgba(29,48,62,.8);
     padding: 12px 20px;
-    margin: 9px;
+    margin: 9px 5px;
     color: white;
     float: left;
     width: 100px;
     cursor: pointer;
+    border-radius: 5px;
+    outline: white solid 1px;
+    outline-offset: -4px;
 }
 
 .toggle {
     width: 250px;
-    background: rgba(89, 162, 214, 0.8) !important;
-    color: black !important;
+    background: rgb(121, 138, 151) !important;
+    color: white !important;
     padding: 12px 20px;
-    margin: 9px;
+    margin: 9px 5px;
     float: left;
     cursor: pointer;
+    border-radius: 5px;
+    outline: white solid 1px;
+    outline-offset: -4px;
 }
 
 #sketch-frame {
@@ -294,13 +302,14 @@ footer img {
 #content {
     clear: both;
     text-align: center;
-    height: 50vh;
+    max-height: 50vh;
     width: 100%;
     position: relative;
 }
 
 #content img, #content iframe {
-    max-height: 100%;
+    max-height: 50vh;
+    position: relative;
     max-width: 80%;
     margin: auto;
 }
@@ -314,17 +323,38 @@ footer img {
     margin: auto;
 }
 
+.nav-title {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
 #work-nav {
-    height: 140px;
+    height: 100%;
+    max-width: 100%;
     padding: 15px 30px;
-    background: #76a2b4;
+    background: rgb(121, 138, 151);
     clear: both;
     text-align: center;
     position: relative;
     margin: auto;
     margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 10px;
     color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    cursor: pointer;
+    position: relative;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    background-image: url(asset_path('sprite.jpg'));
 }
 
 .icon:hover, .select {

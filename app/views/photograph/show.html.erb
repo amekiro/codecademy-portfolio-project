@@ -1,6 +1,6 @@
 <div id='sketch-frame'>
     <div id='sketch'>
-        <div id='cont-nav' style='width: <%= @sketches.length > 0 ? 483 : 232 %>px;'>
+        <div id='cont-nav'>
             <div id='prev' class='toggle'>Previous</div>
             <div class='toggle hide'>Return to the slideshow</div>
             <div id='next' class='toggle'>Next</div>
@@ -29,7 +29,7 @@
     </div>
 </div>
 <div id='work-cont'>
-    <div id='cont-nav' style='width: <%= @sketches.length > 0 ? 483 : 232 %>px;'>
+    <div id='cont-nav'>
         <%= link_to 'Previous', photograph_path(@prev), :id => 'prev' %>
         <% if @sketches.length > 0 %>
             <div class='toggle show'>Click here for more images</div>

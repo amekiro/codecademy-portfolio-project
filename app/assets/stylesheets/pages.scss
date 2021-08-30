@@ -221,16 +221,16 @@ footer img {
     margin-bottom: 20px;
 }
 
-#about-frame > img, #about {
-    float: left;
-    margin-bottom: 20px;
+#about-frame > img {
     max-width: 100%;
+    max-height: 40vh;
 }
 
 #about {
     /*width: 50%;*/
-    padding-left: 40px;
+    margin-top: 20px;
     float: left;
+    clear: both;
 }
 
 #contact ul {

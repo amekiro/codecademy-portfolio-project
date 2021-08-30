@@ -29,10 +29,10 @@
     </div>
 </div>
 <div id='work-cont'>
-    <div id='cont-nav' style='width: <%= @sketches.length > 0 ? 483 : 236 %>px;'>
+    <div id='cont-nav'>
         <%= link_to 'Previous', design_path(@prev), :id => 'prev' %>
         <% if @sketches.length > 0 %>
-            <div class='toggle show'>Click here for more images</div>
+            <div class='toggle show'>View more images</div>
         <% end %>
         <%= link_to 'Next', design_path(@next), :id => 'next' %>
     </div>

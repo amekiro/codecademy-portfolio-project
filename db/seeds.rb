@@ -818,41 +818,41 @@ p3 = Artwork.create(
   link: "https://raw.githubusercontent.com/amekiro/codecademy-portfolio-project/main/app/assets/images/miso_main.png",
   media: "image",
   title: "Photographs of Pembroke Welsh Corgi, Miso",
-  year: 2020
+  year: 2021
 )
 
 p3s1 = Sketch.create(
   icon: -4300,
   media: "image",
-  link: "https://lh3.googleusercontent.com/5h6rXJh53ucfankXf_AOewRCsjQmEJy7qgPLORzF4ACKJ97ZURTA3Jrr2CLan6vxoW-9JIXqWLODAJDKrPVOXyNqOKNb-uVe_fcZJTtkNeohZtsV6TXOXNYc_wmsJo9ET3hoUh9z-siD5y75ppS_atb95wm32I3etCnCIJmGAj6628EIsEySTQhJxYynM3hiXoyEvsMaenWkNAeZgiYToRsU3igm_wUiuygWzUX3mqh4qSmvbhRyk5zyFxkzutAmmcX1dkUBvc07u6AwcJdFtAd-C24alM2qPqeqv58WrEe3DKas2MX8Ef9e-W2iVDMDQEx4fq_vWbUD96uI1HcmkigcP5T6LlvFNOVxKwiiAN7SjTop_12S8QreHw6QkmVUQv26EpGIeHNaprRDucVBoxQ0CSVQumR3_vw72hlBAcpkpYwM1mV_Ws91Y1GWSx4mYbddLIUkhrN2cVAWXBIU2t38QigQPtk2AW8UdNKjQT9GZ4CjaQpMvQcbZwUGDufKioJpF9B672yNsB_osaaIdePhfEuVATCwAv6ocJpegTSyH3jspZYGBKKwff1qWDs7CRklvP1X4UeX9ISQhvTr8KLBNrkrgfyxHYp9jg0276vOkSHKoXKlOhpQhL5UHwze0h_3XT7KysV3l83Kd0zgCd1P0qP2tHl5r-54Hto5h4HFRhmKCckE5lPG9OAiqjYsILSWvPT89Q1TT-MJUxd1EVdM9A=w1470-h828-no?authuser=0",
+  link: "https://raw.githubusercontent.com/amekiro/codecademy-portfolio-project/main/app/assets/images/miso1.jpg",
   artwork_id: p3.id
 )
 
 p3s2 = Sketch.create(
   icon: -4350,
   media: "image",
-  link: "https://lh3.googleusercontent.com/3tmnNoxHtBDpUlKRQY4f3-QqDM3d0k2FK1c14MbGqRGW7fJgX8muHEAqFlom8mdwbdAAx3ARcSYzc1wwYPCCcG336808gkTGMWGVXfZhh4hrS1ZE7P4mz06f_wqwcMpPTE_5elFgbpK6KJuWYuq_UoDzVx_APGhlC3o_9jVlZ795uOEkztOkdfhUwL6yZSA3wIxW6b1z-4rTg8p-nUGNmdvDvdBKAxMuwc_O9KSySLf5609l5XtUZ1GB8NZxLaAP-20cKST5zGlPk3xMWI9b9F1ymJlGHR42dKKZEHZQNLBrE8lxF7cRrJeRETYrPxesJNqvNNbz2fnFKGC6_L2mSNYinGD7FXwLTg4zymNQflYbGRd1MH6RbbBkudYda1WPWmzsLbXNo5LUDiEsPGN3EX7ZJa7X1qcB2Tlx_3K6Lxofn2W0Ml9-D-Zk4bqON962atd151N-VFgXmVCIgtMXteQ3F-FJpoUczVLfTcDrf7olBBQgtHnlK1uR0MUiUH-w5jOZN2m7UQWI5w98eHx6McgWXzoM1k23N5kgY_FaBRxamQsuMNqy52U2lbhpAWZBx9NuPCz_FZuqgw7_kSXWH-V_G2zQDn4bi3LpEuOvoO0mlgjDjri_u1fAMbbhReMYZ-Bppc2_iJmRaLVYmDIeszE3BW2Os5GtRZA2nd9GpLDbNfR1DjX0yw9Ig_cMOazp5K_45VI9zOS_DiNP8ovuX56-dw=w1470-h688-no?authuser=0",
+  link: "https://raw.githubusercontent.com/amekiro/codecademy-portfolio-project/main/app/assets/images/miso2.jpg",
   artwork_id: p3.id
 )
 
 p3s3 = Sketch.create(
   icon: -4400,
   media: "image",
-  link: "https://lh3.googleusercontent.com/uhvhc4xKGh6vNli8-daI9muwXl1oGmNUJBFQ4APEP6EkcutHQOdK72vrN3prJApuoRbVWHcjOxS2MTYtbjhuQA72XBBWkYwF4cGbni8KY3IbyD3s4aRxI1QL5YfbDVKBOQzgja3M5_zeyGIr77F40-GbUnvdMrZzMkgEbDXF_1Z-tQsQI_l53Eo7lRndAgjK-2wGpYcb7rt4A_PUJDQcjjN7ZtiQepkr9-SqyVM8aKaFgrcw-T0V4etUo90GN-K-ld61etm34L-1ajLHkBnm88sT45uPhfTJ-cVQdp-KK8Fz5FZEnO6WodUD98UyGTG9pZLQWvzP0ZvJmdFzkHbRB87f7t-2je4lp5-lK7m4hfKnz2y2Zw6IXCGU6q7Y9E4-8P7FUIwaVCofDfWjL7ZjPB4ox5qbKIIU0-cWTsHzGgdJXf0RTSY8dmPpmmMTceqtBR5TiVibQceJUGH0OBAfSKHYGlPMTgprcuskAaJuESCQ7J9Ik-jCdrgAOot7rtAzTO-ag90j1HJpQDqNEO5T0LdcrUiYf8XNEN9-LJDtrHohunJw2lkBDie8pQtrZ97oVeJ4NHlB8zup5JIsl2mPWIWY-ZQq9NalL22QQgVfbO1o4TkKpIsmoXL_FGi2ZWTBnpIi55ZwMEilPt-HxzSnO9mUemIO_xU2dJHQSCvvlvRGLxDuWlOdBeqDzrZczve9yE9a45pgT69DS40gaO3GtSBVHg=w678-h903-no?authuser=0",
+  link: "https://raw.githubusercontent.com/amekiro/codecademy-portfolio-project/main/app/assets/images/miso3.jpg",
   artwork_id: p3.id
 )
 
 p3s4 = Sketch.create(
   icon: -4450,
   media: "image",
-  link: "https://lh3.googleusercontent.com/CziiXt1U6di53RnUQy1SRg6b3U3_U0bePLsL4NwB5y94KCON5pmy85Z5FTQFAKybmxw4N7HakZs6CVH6kzLBquMiJUNfwnpOhnxOmkGw4Lw3cnWk1wkwNXjnGRLljuv6zlPCNss9buWUM0aNAlfeAPciQwgaMYTjF1UdWYxkIxHjrP40crI8qgWtTshcl4W_88LExDMddTfnrRYjwAMyXQJ2xVUQpy_DqsYV0QMwgvZDyS9_VAbClm3FwKnbD2QWh_RY933Dfn44UOb2QxqMdAbyIjFuuEqEebz__Mv6V_PrCHFvjd7vEXuDlL9oOA8ZqI4_oE6yqHljJes_hyxMMOSdzEW1HxqpIha9ZFuFqXaaIZr3bbxOlNrzfJxEehnyh9TgTYZ1rlVQ4M7TwmoyULyA8j0BL1gqoB4BaIaVo07zUVogjd83SZN-wKrZc3GVvnvIQzLJT02XhIS58W9nigO1qVku9FCzZU2pX08MqUKWQsSp0O7QysYiOSx0NZLJZLsZvQBXCq4lCy-rDNi1SdxCzhlOW0mCvBOcLCPMwpiTiLZNda2NXdrkh3FWhpTy55YBE5JQt7ONL1Ojxrz03OR5lHdh5k8BhfnCUT1hD1jAZOqkcxnIcdeTsFdVLmx3up9EgKshnu0_l-68AVP7tDIad0z6yRcT0n4--PqEvSxuFZeWpZHpOXrc6y19Mau_ISdzwFhdPY3jfh8ncR32VlvIQQ=w1470-h688-no?authuser=0",
+  link: "https://raw.githubusercontent.com/amekiro/codecademy-portfolio-project/main/app/assets/images/miso4.jpg",
   artwork_id: p3.id
 )
 
 p3s5 = Sketch.create(
   icon: -4500,
   media: "image",
-  link: "https://lh3.googleusercontent.com/yy1G4bAaZBFduY0kEf67Mjw3VMTICyHTtayEhG_9_TZuIP35QIEVJle8FWZzW5Vo1dk7wL6FzTwWVWf70COAFtqn95Oz5llEPJGPsPSs6PSq4slJ3rkorm01BwsVWtWxby2nw3h45m6mCzkQwNFyH-3-Qxj5dRknZ3Bsc0wRJgSekJkoDukOBSBb9gliTPpYFfO0a6uBVNgAKksIQO08YEu8f7Ct8G3qchn61qHfB4AFafLhATXTyNP1CuQBwuhqNSioNd6VM4PNp_foOICGc-gsqEf9HUZHw33mGzTvqjGlaAOZHyT-nccdnK-9qCM1aQwdw5p_uZ9tuAvTaR0TCIEQy4RJgncRE16uFd8k5OCJTayIlSWA8-K6473rb5QWvxiK7obCgODf0m8C1Ztp1oXI1lLSgJ5qLCgNUrjhJGVDF_h8nrQUSzEvfVyuNI5ApGBCrLK8Tp5VOhcx_cKaZP7CgDViVPvErj5zZZ-ffcSXWxrbkUD1t-l66BZQQFPweJXaQcMOz0UVnagxhJPefIcpFyuyDgQoySz3uQYoM5Wr-SBJ7eYh-6hB4sUs7YcOH0vjBJsUOqkmZ-jqM0G2AkSFJJvxBpUqueqJjCqi57WURLsfdjbSodH9uhLG0glYrW1QZXLblkUUVkgOvIC_LAs7Mx0X61taG00BBx-SB9vUm8IG8uIwWWxxyVXKvCtIJTscej2COpSDgbdutBCMtiE7FQ=w690-h903-no?authuser=0",
+  link: "https://raw.githubusercontent.com/amekiro/codecademy-portfolio-project/main/app/assets/images/miso5.jpg",
   artwork_id: p3.id
 )
 
